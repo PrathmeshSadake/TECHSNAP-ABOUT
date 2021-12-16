@@ -527,13 +527,13 @@ body {
 		display:flex;
 		margin:0 auto;
 		padding:10px;
-        justify-content:space-around;		
 	}
 	.our_team_box img{
 		width:100px;
-		height:100px
+		height:100px;
 	}
 	.team_box_text{
+		padding:30px;
 		flex-direction: column;
 	}
 	.team_name{
