@@ -534,13 +534,17 @@ body {
 	}
 	.team_box_text{
 		padding:30px;
+		margin: 0 60px;
 		flex-direction: column;
+		height:100%;
 	}
 	.team_name{
-		font-size:20px
+		
+		font-size:20px;
+		padding:2px;
 	}
 	.team_position{
-		font-size:15px;
+		font-size:12px;
 		flex-direction: column;
 
 	}
