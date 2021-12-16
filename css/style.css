@@ -532,8 +532,12 @@ body {
 		width:100px;
 		height:100px;
 	}
+	.team_box_image{
+		width:40%
+	}
 	.team_box_text{
-		padding:30px;
+		width:60%;
+		padding:20px;
 		margin: 0 60px;
 		flex-direction: column;
 		height:100%;
@@ -580,6 +584,7 @@ body {
 .our_team_box{
 		width:100%;
 }
+
 }
 @media (max-width: 720px) {
 	.menu_item ul {
