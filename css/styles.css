@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.tagline {
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 3rem;
+  margin: auto;
+  max-width: 64rem;
+}
+
+.sub-heading {
+  line-height: 1.6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin: auto;
+  margin-top: 2rem;
+  max-width: 38rem;
+  font-weight: 500;
+  color: #555555;
+}
+.our-team {
+  text-decoration: underline;
+  text-decoration-color: #ff00ff;
+  text-underline-offset: 0.8vw;
+}
+.profile {
+  padding: 3rem 2rem;
+  background-color: transparent;
+}
+.profile:hover,
+.profile:active {
+  background-color: #ff00ff;
+  cursor: pointer;
+  color: white;
+}
+.image-container {
+  margin: 0 auto;
+}
+img {
+  max-height: 7.5rem;
+  max-width: 7.5rem;
+  border-radius: 100%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  margin: 1rem 0 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .tagline {
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 2rem;
+    margin: auto;
+    max-width: 64rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tagline {
+    line-height: 1;
+    font-size: 2rem;
+    margin: auto 1rem;
+  }
+}
