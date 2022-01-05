@@ -4,10 +4,11 @@ body {
 
 .tagline {
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.25;
   font-size: 3rem;
   margin: auto;
-  max-width: 64rem;
+  word-spacing: 250%;
+  /* max-width: 64rem; */
 }
 
 .sub-heading {
@@ -17,14 +18,16 @@ body {
   word-break: break-word;
   margin: auto;
   margin-top: 2rem;
-  max-width: 38rem;
   font-weight: 500;
+  font-size: 1.25rem;
   color: #555555;
 }
 .our-team {
   text-decoration: underline;
   text-decoration-color: #ff00ff;
   text-underline-offset: 0.8vw;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 .profile {
   padding: 3rem 2rem;
