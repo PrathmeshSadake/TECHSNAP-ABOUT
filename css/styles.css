@@ -1,14 +1,15 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.hero {
+  padding: 5rem 0;
+}
 .tagline {
   font-weight: 600;
   line-height: 1.25;
   font-size: 3rem;
   margin: auto;
   word-spacing: 250%;
-  /* max-width: 64rem; */
 }
 
 .sub-heading {
@@ -27,7 +28,10 @@ body {
   text-decoration-color: #ff00ff;
   text-underline-offset: 0.8vw;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 3rem;
+}
+.our-team-cards {
+  margin-top: 3rem;
 }
 .profile {
   padding: 3rem 2rem;
@@ -67,10 +71,39 @@ img {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
+  .hero {
+    padding: 3rem 0;
+  }
   .tagline {
     line-height: 1;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    margin: 1rem 1rem;
+    word-spacing: 110%;
+  }
+  .sub-heading {
+    line-height: 1;
+    font-size: 1rem;
     margin: auto 1rem;
+    word-spacing: 100%;
+  }
+  .our-team {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .our-team-cards {
+    margin-top: 1.5rem;
+  }
+  .profile {
+    padding: 1.5rem 2rem;
+    background-color: transparent;
+  }
+  .name {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  .designation {
+    font-size: 0.75rem;
   }
 }
