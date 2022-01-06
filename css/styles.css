@@ -13,7 +13,7 @@ a {
   color: #000;
 }
 .hero {
-  padding: 5rem 0 2rem 0;
+  padding: 8rem 0;
 }
 .tagline {
   font-weight: 600;
@@ -36,13 +36,12 @@ a {
 }
 .silver-section {
   background-color: #efefef;
-
   padding: 5rem 3rem;
   font-weight: 500;
   font-size: 1rem;
 }
 .silver-section .content {
-  max-width: 72rem;
+  max-width: 64rem;
 }
 .silver-section h3 {
   font-weight: 600;
@@ -127,13 +126,29 @@ button {
     line-height: 1;
     font-size: 1.25rem;
     margin: 1rem;
-    word-spacing: 110%;
+    word-spacing: 105%;
   }
   .sub-heading {
     line-height: 1;
     font-size: 1rem;
     margin: auto;
     word-spacing: 100%;
+  }
+  .silver-section {
+    background-color: #efefef;
+    padding: 3rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .silver-section .content {
+    max-width: 64rem;
+  }
+  .silver-section h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .about {
+    margin-bottom: 2rem;
   }
   .our-team {
     font-weight: 400;
