@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -13,15 +13,12 @@ a {
   color: #000;
 }
 .hero {
-  max-width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
 }
 .tagline {
   font-weight: 600;
   line-height: 1.25;
   font-size: 3rem;
-  max-width: 100%;
-
   word-spacing: 250%;
 }
 
@@ -37,18 +34,54 @@ a {
   color: #555555;
   max-width: 100%;
 }
+.silver-section {
+  background-color: #efefef;
+
+  padding: 5rem 3rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.silver-section .content {
+  max-width: 72rem;
+}
+.silver-section h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #ff00d6 !important;
+  border-color: #ff00d6 !important;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  border-color: #ff00d6 !important;
+  background-color: transparent !important;
+  color: #ff00d6 !important;
+}
+.btn-outline-primary {
+  border-color: #ff00d6 !important;
+  color: #ff00d6 !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  color: #fff !important;
+  background-color: #ff00d6 !important;
+  border-color: #ff00d6 !important;
+}
 .our-team {
   text-decoration: underline;
   text-decoration-color: #ff00ff;
   text-underline-offset: 0.8vw;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 3rem;
+  margin-top: 2rem;
 }
 .our-team-cards {
   margin-top: 3rem;
 }
 .profile {
-  padding: 3rem 2rem;
+  padding: 2.5rem 2rem;
   background-color: transparent;
 }
 .profile:hover,
@@ -74,7 +107,9 @@ a {
 .name {
   margin: 1rem 0 0.5rem;
 }
-
+button {
+  display: inline-block;
+}
 @media screen and (max-width: 1100px) {
   .tagline {
     font-weight: 500;
