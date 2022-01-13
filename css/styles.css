@@ -85,11 +85,13 @@ a {
 }
 .image-container {
   margin: 0 auto;
+  overflow: hidden;
 }
 .profile__img {
   max-height: 7.5rem;
   max-width: 7.5rem;
   border-radius: 100%;
+  object-fit: cover;
 }
 
 .profile .content {
