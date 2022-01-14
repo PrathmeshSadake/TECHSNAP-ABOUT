@@ -86,10 +86,12 @@ a {
 .image-container {
   margin: 0 auto;
   overflow: hidden;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 .profile__img {
-  max-height: 7.5rem;
-  max-width: 7.5rem;
+  height: 100%;
+  max-width: 100%;
   border-radius: 100%;
   object-fit: cover;
 }
